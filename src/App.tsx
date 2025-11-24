@@ -18,6 +18,7 @@ const Shell = styled.main`
   justify-content: center;
   padding: 2rem;
   width: 100%;
+  max-width: 36rem;
 `;
 
 const CardHolder = styled.div`
@@ -67,7 +68,7 @@ const SUPERELLIPSE_NAMED_VALUES = {
   square: Infinity,
   squircle: 2,
   round: 1,
-  bavel: 0,
+  bevel: 0,
   scoop: -1,
   notch: -Infinity,
 };
